@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxbk0r174fnkg"]
+
+[ext_resource type="Script" path="res://unit.gd" id="1_jnocq"]
+[ext_resource type="Texture2D" uid="uid://b3uauw2w5kxx3" path="res://lapis.png" id="1_pg84f"]
+
+[node name="UnitRoot" type="Node2D"]
+script = ExtResource("1_jnocq")
+
+[node name="UnitSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_pg84f")

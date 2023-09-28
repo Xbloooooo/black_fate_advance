@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://fo5kpaoxensf"]
+
+[ext_resource type="Texture2D" uid="uid://dvr7j1sdcudfa" path="res://tile.png" id="1_pt8bn"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_wdwee"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.764706)
+material = SubResource("CanvasItemMaterial_wdwee")
+scale = Vector2(1.039, 1.042)
+texture = ExtResource("1_pt8bn")

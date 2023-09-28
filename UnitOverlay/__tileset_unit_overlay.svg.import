@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://boo78ejacdpde"
-path="res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
+uid="uid://b40e54op5hjsm"
+path="res://.godot/imported/__tileset_unit_overlay.svg-5d4d5ed90f365d5e64bbb209c38ce8e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.svg"
-dest_files=["res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"]
+source_file="res://UnitOverlay/__tileset_unit_overlay.svg"
+dest_files=["res://.godot/imported/__tileset_unit_overlay.svg-5d4d5ed90f365d5e64bbb209c38ce8e0.ctex"]
 
 [params]
 

@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://dpcym6d6itjkb"]
+
+[ext_resource type="PackedScene" uid="uid://d3j0gjfnvas2y" path="res://Map.tscn" id="1_77j84"]
+[ext_resource type="Script" path="res://overlay.gd" id="2_exxnw"]
+[ext_resource type="Texture2D" uid="uid://dvr7j1sdcudfa" path="res://tile.png" id="3_iqpcw"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_ra772"]
+blend_mode = 1
+
+[node name="Overlay" instance=ExtResource("1_77j84")]
+layer_0/tile_data = PackedInt32Array(0, 2, 0)
+script = ExtResource("2_exxnw")
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="0"]
+visible = false
+modulate = Color(128.498, 0, 0, 1)
+self_modulate = Color(1, 0, 0, 1)
+material = SubResource("CanvasItemMaterial_ra772")
+position = Vector2(32.75, 38)
+scale = Vector2(1.03906, 1.04167)
+texture = ExtResource("3_iqpcw")
